@@ -42,4 +42,4 @@ jobs:
         uses: maxheld83/ghpages@0.3.0
         env:
           BUILD_DIR: public/
-          GH_PAT: ${{ secret.GH_PAT }}
+          GH_PAT: ${{ secrets.GH_PAT }}
