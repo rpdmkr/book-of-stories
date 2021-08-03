@@ -39,7 +39,7 @@ jobs:
 
       # Deploy a gh-page
       - name: Deploy a GH Page
-        uses: maxheld83/ghpages@0.3.0
+        uses: maxheld83/ghpages@v0.3.0
         env:
           BUILD_DIR: public/
           GH_PAT: ${{ secrets.GH_PAT }}
