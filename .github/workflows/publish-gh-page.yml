@@ -32,10 +32,13 @@ jobs:
         run: |
           echo Hello, world Again!
           echo test, and deploy your project.
-          
+      
+      # Create a gh-page
+      - name: Create a GH Page
+        run: echo $GITHUB_SHA >> public/index.html
+
       # Deploy a gh-page
       - name: Deploy a GH Page
-        run: echo $GITHUB_SHA >> public/index.html
         uses: maxheld83/ghpages@0.3.0
         env:
           BUILD_DIR: public/
