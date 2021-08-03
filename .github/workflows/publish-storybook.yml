@@ -34,7 +34,7 @@ jobs:
             node-version: '14'
             cache: 'npm'
 
-      - name: Install node
+      - name: Install node modules
         run: npm ci
 
       - name: Create storybook
