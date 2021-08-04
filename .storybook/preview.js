@@ -15,7 +15,6 @@ const withThemeProvider = (Story, context) => {
   //   const theme = defaultTheme;
   return (
     <RootThemeProvider theme={theme}>
-      <h1>Themed</h1>
       <Story {...context} />
     </RootThemeProvider>
   );

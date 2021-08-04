@@ -72,13 +72,13 @@ const textVariants = {
         },
         'display3': {
             fontSize: 10,
-            lineHeight: 10,
+            lineHeight: 9,
             letterSpacing: 1,
             fontFamily: 'sansSerif',
         },
         'display4': {
             fontSize: 10,
-            lineHeight: 10,
+            lineHeight: 9,
             letterSpacing: 2,
             fontFamily: 'sansSerif',
         }
@@ -92,7 +92,7 @@ ${variant(textVariants)}
 `;
 
 Text.defaultProps = {
-    variant: 'display2',
+    variant: 'body1',
 }
 
 
